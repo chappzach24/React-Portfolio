@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import CustomNavbar from './CustomNavbar';
 
-export default function Nav(){
+export default function NavBar(){
   return (
     <CustomNavbar
     links={[
