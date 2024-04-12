@@ -5,7 +5,7 @@ const CustomNavbar = ({links}) => {
   return (
     <BootstrapNavbar bg="dark" variant="dark" expand="lg">
       <Container>
-        <BootstrapNavbar.Brand href="#home">Chapman</BootstrapNavbar.Brand>
+        <BootstrapNavbar.Brand href="#home">Zachary Chapman</BootstrapNavbar.Brand>
         
         <BootstrapNavbar.Toggle aria-controls="basic-navbar-nav" />
         <BootstrapNavbar.Collapse id="basic-navbar-nav">
