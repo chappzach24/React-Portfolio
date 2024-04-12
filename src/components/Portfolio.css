@@ -1,0 +1,58 @@
+/* Portfolio.css */
+
+.container {
+  padding: 20px;
+}
+
+.portfolio-heading {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.btn-primary,
+.btn-secondary {
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: #007bff;
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+}
+
+.github-icon {
+  width: 40px;
+  height: auto;
+  margin-right: 5px;
+}

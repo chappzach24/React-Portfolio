@@ -3,15 +3,15 @@ import React from 'react';
 import './App.css';
 
 import Navbar from './components/Nav';
-// import AboutMe from './components/AboutMe';
-// import Portfolio from './components/Portfolio';
-// import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 function App() {
   return (
     <div>
       <Navbar />
       <Outlet />
+
+      <Footer />
 
     </div>
   );

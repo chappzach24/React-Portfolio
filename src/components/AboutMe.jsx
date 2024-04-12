@@ -1,4 +1,5 @@
 import './AboutMe.css';
+import babyPic from './photos/baby_pic.jpg';
 
 export default function AboutMe() {
   return (
@@ -8,17 +9,17 @@ export default function AboutMe() {
       </div>
       <div className="about-me-content">
         <div className="avatar">
-          <img src="your_photo_or_avatar_url" alt="Zachary Chapman" />
+          <img src={babyPic} alt="Zachary Chapman" />
         </div>
         <div className="bio">
           <p>
-            Hi, I'm <span className="name">Zachary Chapman</span>, a passionate web developer with <span className="experience">[X]</span> years of experience in building web applications. I love turning ideas into reality through code and constantly expanding my skills to stay up-to-date with the latest technologies.
+            Hey, I'm <span className="name">Zachary Chapman</span>—a passionate web developer. I love turning ideas into reality through code and constantly expanding my skills to stay up-to-date with the latest technologies.
           </p>
           <p>
-            In my journey as a developer, I've worked with technologies like HTML, CSS, JavaScript, React, Node.js, and more. I enjoy collaborating with teams and solving complex problems to deliver high-quality solutions.
+            By day, I craft elegant solutions to complex problems; by night, I immerse myself in virtual adventures, conquering challenges and discovering new horizons. Parenthood recently joined the adventure, adding an extra dose of chaos and joy to my journey.
           </p>
           <p>
-            Outside of coding, I enjoy <span className="interests">[hobbies or interests related to your personality]</span>.
+            Join me as I share insights, experiences, and the delightful intersection of code, games, and parenting. Let's connect and explore together!
           </p>
         </div>
       </div>
