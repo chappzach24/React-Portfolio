@@ -1,21 +1,29 @@
-import React from 'react';
-import "./Resume.css";
-
+import React from "react";
+ 
 const Resume = () => {
-  return (
-    <div className="resume-container">
-      
-      <div className="resume-download">
-        <h3>Download Resume</h3>
-        <p>Click the link below to download my resume:</p>
-        <a href="/path/to/your/resume.pdf" download>
-          Download Resume
-        </a>
-      </div>
-      <div className="resume-proficiencies">
-      </div>
-    </div>
-  );
+    const onButtonClick = () => {
+        const pdfUrl = "public\Zachary_Chapman_Resume.pdf";
+        const link = document.createElement("a");
+        link.href = pdfUrl;
+        link.download = "Zachary_Chapman_Resume.pdf";
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+    };
+    return (
+        <>
+            <center>
+                <h1>Welcome to Geeks for Geeks</h1>
+                <h3>
+                    Click on below button to download PDF
+                    file
+                </h3>
+                <button onClick={onButtonClick}>
+                    Download PDF
+                </button>
+            </center>
+        </>
+    );
 };
-
+ 
 export default Resume;
