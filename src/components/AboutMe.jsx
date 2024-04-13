@@ -13,10 +13,12 @@ export default function AboutMe() {
         </div>
         <div className="bio">
           <p>
-            Hey, I'm <span className="name">Zachary Chapman</span>—a passionate web developer. I love turning ideas into reality through code and constantly expanding my skills to stay up-to-date with the latest technologies.
-          </p>
-          <p>
-            By day, I craft elegant solutions to complex problems; by night, I immerse myself in virtual adventures, conquering challenges and discovering new horizons. Parenthood recently joined the adventure, adding an extra dose of chaos and joy to my journey.
+            Hey, I'm Zachary Chapman—a programmer, gamer, and new parent. By
+              day, I code solutions; by night, I conquer virtual worlds.
+              Parenthood recently joined the adventure, adding chaos and joy.
+              Join me as I share insights, experiences, and the delightful
+              intersection of code, games, and parenting. Let's connect and
+              explore together!
           </p>
           <p>
             Join me as I share insights, experiences, and the delightful intersection of code, games, and parenting. Let's connect and explore together!
