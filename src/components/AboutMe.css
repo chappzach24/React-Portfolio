@@ -1,10 +1,8 @@
 .about-me {
-  background-color: #f9f9f9;
   padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  margin-bottom: 20px;
-  font-size: 1.5rem;
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
 }
 
 .about-me-header {
@@ -12,38 +10,22 @@
   margin-bottom: 20px;
 }
 
-.about-me-header h2 {
-  color: #333;
-}
-
-.avatar {
-  text-align: center;
+.about-me-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .avatar img {
   width: 200px;
   height: 200px;
   border-radius: 50%;
-  object-fit: cover;
-  border: 4px solid #fff;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
 }
 
-.bio {
-  padding: 20px;
-  background-color: #fff;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+.bio p {
+  text-align: center;
+  margin-bottom: 10px;
+  line-height: 1.6;
 }
 
-.name {
-  font-weight: bold;
-}
-
-.experience {
-  font-style: italic;
-}
-
-.interests {
-  font-style: italic;
-}

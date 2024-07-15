@@ -13,10 +13,10 @@ export default function AboutMe() {
         </div>
         <div className="bio">
           <p>
-          Greetings, fellow adventurers! I'm Zachary Chapman, a passionate explorer navigating the thrilling realms of programming, gaming, and the exhilarating journey of parenthood. By day, I harness the power of code to craft ingenious solutions that bridge the gap between imagination and reality. By night, I venture into digital landscapes, wielding my controller as a sword, ready to conquer virtual worlds and uncover hidden treasures.
+            Greetings, fellow adventurers! I'm Zachary Chapman, a passionate explorer navigating the thrilling realms of programming, gaming, and the exhilarating journey of parenthood. By day, I harness the power of code to craft ingenious solutions that bridge the gap between imagination and reality. By night, I venture into digital landscapes, wielding my controller as a sword, ready to conquer virtual worlds and uncover hidden treasures.
           </p>
           <p>
-          Recently, parenthood has joined this epic odyssey, infusing it with a delightful blend of chaos and joy. The once serene landscapes of my life are now bustling with the laughter and cries of a new generation, adding an entirely new dimension to my adventures. Yet, amidst the whirlwind of diapers and late-night feedings, I've discovered a profound intersection between my passions for coding, gaming, and nurturing.
+            Recently, parenthood has joined this epic odyssey, infusing it with a delightful blend of chaos and joy. The once serene landscapes of my life are now bustling with the laughter and cries of a new generation, adding an entirely new dimension to my adventures. Yet, amidst the whirlwind of diapers and late-night feedings, I've discovered a profound intersection between my passions for coding, gaming, and nurturing.
           </p>
         </div>
       </div>

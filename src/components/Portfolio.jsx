@@ -1,14 +1,13 @@
 import React from "react";
 import "./Portfolio.css";
 
-// import weatherApp from "../components/photos/";
 import theblogApp from "./photos/techBlog.png";
 import weatherApp from "./photos/weatherapi.png";
 import apiApp from "./photos/api.png";
 import noteApp from "./photos/noteTaking.png";
 import passwordApp from "./photos/random-pass.png";
 import quizApp from "./photos/code-Quiz.png";
-import githubSmall from "./photos/Logo.png"
+import githubSmall from "./photos/Logo.png";
 
 const Portfolio = () => {
   const projects = [
@@ -51,24 +50,25 @@ const Portfolio = () => {
   ];
 
   return (
-    <div className="container">
-      <h2 className="portfolio-heading text-center mt-5">Portfolio</h2>
-      <div className="row justify-content-center">
+    <div className="portfolio-container">
+      <h2 className="portfolio-heading">Portfolio</h2>
+      <div className="portfolio-grid">
         {projects.map((project, index) => (
-          <div className="col-lg-4 col-md-6 mb-4" key={index}>
-            <div className="card">
-              <img
-                className="card-img-top"
-                src={project.imgAsset}
-                alt={project.name}
-              />
-              <div className="card-body">
-                <h5 className="card-title">{project.name}</h5>
+          <div className="portfolio-card" key={index}>
+            <img
+              className="portfolio-image"
+              src={project.imgAsset}
+              alt={project.name}
+            />
+            <div className="portfolio-content">
+              <h5 className="portfolio-title">{project.name}</h5>
+              <div className="portfolio-buttons">
                 <a
                   href={project.appUrl}
-                  className="btn btn-primary mr-2"
+                  className="btn btn-primary"
                   target="_blank"
                   rel="noopener noreferrer"
+                  aria-label={`View ${project.name} application`}
                 >
                   View App
                 </a>
@@ -77,12 +77,13 @@ const Portfolio = () => {
                   className="btn btn-secondary"
                   target="_blank"
                   rel="noopener noreferrer"
+                  aria-label={`View ${project.name} GitHub repository`}
                 >
                   <img
                     src={githubSmall}
                     alt="GitHub Repository"
                     className="github-icon"
-                  />{" "}
+                  />
                   GitHub Repo
                 </a>
               </div>
