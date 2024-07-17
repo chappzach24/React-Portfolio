@@ -51,7 +51,7 @@ const Portfolio = () => {
 
   return (
     <div className="portfolio-container">
-      <h2 className="portfolio-heading">Portfolio</h2>
+      <h2 className="portfolio-heading">Projects</h2>
       <div className="portfolio-grid">
         {projects.map((project, index) => (
           <div className="portfolio-card" key={index}>
